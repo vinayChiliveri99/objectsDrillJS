@@ -7,7 +7,6 @@ function invert(obj) {
 
   for (key in obj) {
     // obj[key] gives value and that value is treated as key in invertedObject and assigning the key of obj to it
-
     invertedObject[obj[key]] = key;
   }
 
